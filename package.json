@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "description": "Codex multi-account rotation for OpenCode v1 and v2. NOT LOADED \u2014 prototype.",
   "type": "module",
-  "main": "./src/index.js",
+  "main": "./src/v2.js",
   "exports": {
-    ".": "./src/index.js",
-    "./v2": "./src/v2.js"
+    ".": "./src/v2.js",
+    "./server": "./src/v2.js",
+    "./core": "./src/index.js"
   },
   "scripts": {
     "test": "node --test test/"
